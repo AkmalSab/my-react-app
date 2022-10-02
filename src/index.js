@@ -7,7 +7,13 @@ import Car from './Car.js';
 import CarClass from './CarClass.js';
 import Container from './Container.js';
 import Props from './Props.js';
-import Football from './Football.js';
+import {
+    Football,
+    Goal,
+    MadeGoal,
+    MissedGoal,
+    Garage,
+} from './Football.js';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -16,8 +22,9 @@ import Football from './Football.js';
 //   </React.StrictMode>
 // );
 
+
 const mydiv = ReactDOM.createRoot(document.getElementById('mydiv'));
-mydiv.render(<Football />);
+mydiv.render(<Goal isGoal={true} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
