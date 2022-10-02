@@ -7,6 +7,8 @@ import Car from './Car.js';
 import CarClass from './CarClass.js';
 import Container from './Container.js';
 import Props from './Props.js';
+import Football from './Football.js';
+
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
@@ -15,7 +17,7 @@ import Props from './Props.js';
 // );
 
 const mydiv = ReactDOM.createRoot(document.getElementById('mydiv'));
-mydiv.render(<Props brand="Toyota" />);
+mydiv.render(<Football />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
